@@ -1,5 +1,5 @@
 # mylibrary
-Create simple library website using php and some languages uses
+Create simple library website using php and some other languages uses
 Bhavin 
      Author page, Dashboard page, Category page and Index page design and header are completed me.
 Dharmrsh 
