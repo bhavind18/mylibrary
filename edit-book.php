@@ -66,7 +66,7 @@ if(mysqli_num_rows($run1) > 0)
   while($row1 = mysqli_fetch_assoc($run1))
   {
     echo "
-    <option {$selected} value='{$row1['category_name']}'>{$row1['category_name']}</option>
+    <option value='{$row1['category_name']}'>{$row1['category_name']}</option>
     ";
   }
 }
@@ -88,7 +88,7 @@ if(mysqli_num_rows($run1) > 0)
   {
     
     echo "
-    <option {$selected} value='{$row1['author_name']}'>{$row1['author_name']}</option>
+    <option value='{$row1['author_name']}'>{$row1['author_name']}</option>
     ";
   }
 }
